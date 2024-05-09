@@ -32,12 +32,7 @@ if ingredients_list:
     ingredients_string=' '
 
     for i in ingredients_list:
-	    
-	    
-	ingredients_string=ingredients_string+i+' '
-	
-
-	    
+	    ingredients_string=ingredients_string+i+' '
     #st.write(ingredients_string)
 
     my_insert_stmt = """ insert into smoothies.public.orders(ingredients,name_on_order)

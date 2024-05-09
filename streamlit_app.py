@@ -9,7 +9,7 @@ st.write(
 )
 
 # Get the current credentials
-cnx=st.connection("snowflake")
+cnx=st.connection('snowflake')
 session = cnx.session()
 
 

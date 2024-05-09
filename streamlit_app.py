@@ -48,6 +48,7 @@ if ingredients_list:
 
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-st.text(fruityvice_response.json())
+dfx=(fruityvice_response.json())
+fv_df=(data=dfx,use_container_width=True)
 	    
 
